@@ -1,0 +1,256 @@
+@media screen and (min-width: 601px) {
+
+body {
+	margin: 0px;
+}
+
+.top-line {
+	display: flex;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+.book-parent {
+	padding-left: 2%;
+}
+
+.book {
+	width: 100px;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	cursor: pointer;
+	background-color: white;
+	border: 1px solid black;
+	font-size: 15px;
+	border-radius: 0.5px;
+}
+
+.socials {
+	margin-left: auto;
+	padding-right: 2%;
+}
+
+.socials a{
+	color: #050A30;
+	padding-bottom: 1%;
+	text-decoration: none;
+
+}
+
+.nav-drop-down {
+	display: none;
+	/*padding: 1%;
+	border: 0;
+	background-color: transparent;
+	font-size: 20px;*/
+}
+
+	/*.nav-drop-down:focus {
+		outline: none;
+	}
+
+	.nav-drop-down:hover {
+		font-size: 110%
+	}*/
+
+	.drop-down-list {
+		display: none;
+	}
+/*
+	.drop-down-list.show {
+		position: absolute;
+		display: flex;
+		flex-direction: column;
+		list-style-type: none;
+		text-transform: uppercase;
+		margin-top: 4%;
+		background-color: white;
+
+	}
+
+	.drop-down-list li {
+		position: relative;
+		margin-top: 10px;
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.drop-down-list a {
+		position: relative;
+		font-size: 15px;
+		color: black;
+		text-decoration: none;
+	}
+
+	.drop-down-list a:hover {
+		border-bottom: 1px solid black;
+		opacity: 0.5;
+	}*/
+
+
+.header {
+	background-color: #e5d4bd;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.title {
+	font-size: 60px;
+	color: #050A30;
+	text-align: center;
+}
+
+.nav-bar {
+	width: 200px;
+	margin-left: 5%;
+}
+
+.nav-bar ul {
+	list-style-type: none;
+  	padding: 0;
+  	margin: 0;
+  	display: flex;
+  	flex-direction: row;
+ }
+
+ .nav-bar li {
+ 	margin: 0 5%;
+ }
+
+.nav-bar li a {
+	text-decoration: none;
+	color: black;
+}
+
+.slogan {
+	font-size: 25px;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	color: #050A30;
+}
+
+.section1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 80%;
+	margin-left: 10%;
+	align-content: center;
+}
+
+.description-parent {
+	padding: 0 0 3% 5%;
+	margin-right: 5%;
+	display: flex;
+	align-content: center;
+	margin-top: 2%;
+}
+
+.description {
+	border: 1px solid black;
+	border-radius: 0.5px;
+/*	background-color: #e5d4bd;
+*/	text-align: center;
+	padding: 2% 0 2% 0;
+}
+
+.image1-parent {
+	width: 50%;
+}
+
+.image1 {
+	width: 70%;
+}
+
+/*.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.houses1 {
+	width: 100%;
+}
+
+/* Next & previous buttons */
+/*.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}*/
+
+/* Position the "next button" to the right */
+/*.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}*/
+
+/* On hover, add a black background color with a little bit see-through */
+/*.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}*/
+
+/* The dots/bullets/indicators */
+/*.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+*/
+/*.active, .dot:hover {
+  background-color: #717171;
+}*/
+
+/* Fading animation */
+/*.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}*/
+
+.footer {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.footer a{
+	color: #050A30;
+	padding-right: 1%;
+	padding-bottom: 1%;
+	text-decoration: none;
+}
+)
